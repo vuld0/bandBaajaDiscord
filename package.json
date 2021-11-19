@@ -1,0 +1,36 @@
+{
+  "name": "bandbaajadiscord",
+  "version": "1.0.0",
+  "description": "Discord Bot for listening Songs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server/index.js",
+    "lint": "eslint server/index.js",
+    "lint:fix": "eslint --fix ./server",
+    "prettier:check": "prettier --check ./server",
+    "prettier:write": "prettier --write ./server"
+  },
+  "author": "vuld0",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/voice": "^0.7.5",
+    "discord-player": "^5.1.0",
+    "discord.js": "^13.3.1",
+    "dotenv": "^10.0.0",
+    "opusscript": "^0.0.8",
+    "valid-url": "^1.0.9",
+    "ytdl-core": "^4.9.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-node": "^4.1.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.4.1"
+  }
+}
